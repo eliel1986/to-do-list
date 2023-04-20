@@ -81,5 +81,16 @@ select {
     font-weight: bold;
 }
 
+.form-control {
+    display: flex; /*itens lado a lado*/
+}
+
+.form-control input {
+    margin-right: 0.3rem;
+}
+
+
+
+
 
 
