@@ -11,3 +11,13 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 
 
 // Eventos
+todoForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const inputValue = todoInput.value;
+
+    if(inputValue) {
+        console.log(inputValue);
+        // save todo
+    }
+});
